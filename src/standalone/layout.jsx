@@ -27,7 +27,7 @@ export default class StandaloneLayout extends React.Component {
 
     return (
 
-      <Container className='swagger-ui'>
+      <Container>
         { Topbar ? <Topbar/> : null }
         { loadingStatus === "loading" &&
           <div className="info">
